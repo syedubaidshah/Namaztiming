@@ -1,0 +1,47 @@
+body {
+  background-image: url(./img/blue-mosque-istanbul.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  font-size: 30px;
+  color: rgb(218, 133, 22);
+}
+
+.container {
+  box-shadow: 0 0 65px 5px rgb(218, 133, 22);
+  border-radius: 20px;
+  border: 1px 2px 2px 1px;
+  border-color: black;
+  border-style: solid;
+  width: 25%;
+  margin-top: 15%;
+  margin-left: 35%;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="text"] {
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search {
+  background-color: transparent;
+  color: black;
+  font: 15px system-ui;
+}
+.abc {
+  font-size: 20px;
+  font-weight: 500;
+}
